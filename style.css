@@ -22,7 +22,7 @@ a {
 
 .logo {
     color: var(--black, #121723);
-    font-family: Russo One;
+    font-family: 'Russo One';
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
@@ -133,7 +133,7 @@ img {
 
 .footer-logo {
     color: var(--white, #FFF);
-    font-family: Russo One;
+    font-family: 'Russo One';
     font-size: 31px;
     font-style: normal;
     font-weight: 400;
