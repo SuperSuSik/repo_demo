@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    max-width: 1161px;
+    width: 100%;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--black, #121723);
+    font-family: Russo One;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78.188%; /* 32.839px */
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-item {
+    color: #121723;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer {
+    background: var(--black, #121723);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.raw {
+    display: flex;
+    max-width: 1161px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    width: 348px;
+    height: 348px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #9E3500;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.text {
+    color: #111;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 186.667% */
+}
+
+.text:last-child {
+    margin-top: 19px;
+}
+
+.description {
+    color: #757575;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1161px;
+    width: 100%;
+    padding: 30px 0;
+    flex-direction: column;
+}
+
+.first-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    color: var(--white, #FFF);
+    font-family: Russo One;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78.188%; /* 24.238px */
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.socila-media-item {
+    color: var(--white, #FFF);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 18px;
+    background: rgba(230, 232, 236, 0.40);
+}
+
+.copiright {
+    color: var(--text_gray, #A1A6B4);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+}
