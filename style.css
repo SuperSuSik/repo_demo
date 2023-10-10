@@ -10,6 +10,7 @@ a {
 .header {
     display: flex;
     justify-content: center;
+    background-color: #161616;
 }
 
 .header-container {
@@ -21,12 +22,19 @@ a {
 }
 
 .logo {
-    color: var(--black, #121723);
+    color: var(--black, #ffffff);
+    width: 9%;
     font-family: Russo One;
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
     line-height: 78.188%; /* 32.839px */
+}
+
+.nubskins {
+    color: #d8d8d8;
+    margin-left: 350px;
+    font-family: Anonymous Pro;
 }
 
 .nav-container {
@@ -36,7 +44,7 @@ a {
 }
 
 .nav-item {
-    color: #121723;
+    color: #ffffff;
     font-family: 'Anonymous Pro', monospace;
     font-size: 26px;
     font-style: normal;
@@ -45,7 +53,7 @@ a {
 }
 
 .footer {
-    background: var(--black, #121723);
+    background: var(--black, #161616);
     display: flex;
     justify-content: center;
 }
@@ -74,11 +82,15 @@ img {
 .card {
     display: flex;
     flex-direction: column;
+    background-color: rgb(17, 17, 17)
 }
 
 .image-container {
+    border: 5px;
     width: 348px;
     height: 348px;
+    border: 2px solid black;;
+    background-color: #181818;
 }
 
 .content {
@@ -87,7 +99,8 @@ img {
 }
 
 .title {
-    color: #9E3500;
+    color: #c90000;
+    margin-left: 20px;
     font-family: Helvetica Neue, sans-serif;
     font-size: 15px;
     font-style: normal;
@@ -96,7 +109,9 @@ img {
 }
 
 .text {
-    color: #111;
+    color: #d8d8d8;
+    width: 340px;
+    margin-left: 10px;
     font-family: Helvetica Neue;
     font-size: 15px;
     font-style: normal;
@@ -110,6 +125,7 @@ img {
 
 .description {
     color: #757575;
+    margin-left: 10px;
     font-family: Helvetica Neue;
     font-size: 15px;
     font-style: normal;
@@ -132,8 +148,8 @@ img {
 }
 
 .footer-logo {
-    color: var(--white, #FFF);
-    font-family: Russo One;
+    color: var(--white, #ffffff);
+    font-family: Anonymous Pro;
     font-size: 31px;
     font-style: normal;
     font-weight: 400;
@@ -148,7 +164,7 @@ img {
 }
 
 .socila-media-item {
-    color: var(--white, #FFF);
+    color: var(--white, #ffffff);
     font-family: Anonymous Pro;
     font-size: 20px;
     font-style: normal;
@@ -170,4 +186,9 @@ img {
     font-weight: 700;
     line-height: normal;
     margin: 0 auto;
+}
+
+
+body {
+    background-color: #292929;
 }
