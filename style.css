@@ -14,11 +14,12 @@ a {
 }
 
 .header-container {
-    display: flex;
     max-width: 1161px;
     width: 100%;
     padding: 30px 0;
     justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -29,12 +30,13 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 78.188%; /* 32.839px */
+    
 }
 
 .nubskins {
     color: #d8d8d8;
-    margin-left: 350px;
     font-family: Anonymous Pro;
+    margin-right: 320px;
 }
 
 .nav-container {
@@ -101,7 +103,7 @@ img {
 .title {
     color: #c90000;
     margin-left: 20px;
-    font-family: Helvetica Neue, sans-serif;
+    font-family: Anonymous Pro;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -112,7 +114,7 @@ img {
     color: #d8d8d8;
     width: 340px;
     margin-left: 10px;
-    font-family: Helvetica Neue;
+    font-family: Anonymous Pro;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -126,7 +128,7 @@ img {
 .description {
     color: #757575;
     margin-left: 10px;
-    font-family: Helvetica Neue;
+    font-family: Anonymous Pro;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
