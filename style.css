@@ -72,6 +72,25 @@ img {
     justify-content: center;
 }
 
+.mice {
+    color: var(--black, #ffffff);
+    font-family: 'Anonymous Pro', monospace;
+    display: flex;
+    justify-content: center;
+    margin-right: 1065px;
+    padding: 5px;
+}
+
+.keyboards {
+    color: var(--black, #ffffff);
+    font-family: 'Anonymous Pro', monospace;
+    display: flex;
+    justify-content: center;
+    margin-right: 980px;
+    padding: 5px;
+}
+
+
 .raw {
     display: flex;
     max-width: 1161px;
@@ -101,7 +120,7 @@ img {
 }
 
 .title {
-    color: #c90000;
+    color: #ffffff;
     margin-left: 20px;
     font-family: Anonymous Pro;
     font-size: 15px;
@@ -127,6 +146,7 @@ img {
 
 .description {
     color: #757575;
+    max-width: 300px;
     margin-left: 10px;
     font-family: Anonymous Pro;
     font-size: 15px;
