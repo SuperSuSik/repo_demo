@@ -35,9 +35,10 @@ a {
 
 .nubskins {
     color: #d8d8d8;
-    font-family: Anonymous Pro;
     margin-right: 320px;
     margin-left: 10px;
+    font-family: Anonymous Pro;
+    
 }
 
 .nav-container {
@@ -91,23 +92,12 @@ img {
     padding: 5px;
 }
 
-.headphones {
-    color: var(--black, #ffffff);
-    font-family: 'Anonymous Pro', monospace;
-    display: flex;
-    justify-content: center;
-    margin-right: 1000px;
-    padding: 5px;
-}
-
 
 .raw {
     display: flex;
     max-width: 1161px;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 15px;
+    
+    
 }
 
 .card {
@@ -117,9 +107,6 @@ img {
 }
 
 .image-container {
-    border: 5px;
-    width: 348px;
-    height: 348px;
     border: 2px solid black;;
     background-color: #181818;
 }
@@ -140,8 +127,8 @@ img {
 }
 
 .text {
-    color: #d8d8d8;
-    width: 340px;
+    color: white;
+    width: 300px;
     margin-left: 10px;
     font-family: Anonymous Pro;
     font-size: 15px;
@@ -155,8 +142,8 @@ img {
 }
 
 .description {
-    color: #757575;
-    max-width: 300px;
+    color: #c2c2c2;
+    max-width: 1100px;
     margin-left: 10px;
     font-family: Anonymous Pro;
     font-size: 15px;
@@ -223,4 +210,10 @@ img {
 
 body {
     background-color: #292929;
+}
+
+.Keyboard-description {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.45);
+    font-weight: 400;
 }
