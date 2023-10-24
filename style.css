@@ -15,7 +15,6 @@ a {
 }
 
 .header-container {
-    max-width: 1161px;
     width: 1161px;
     padding: 30px;
     justify-content: flex-start;
@@ -49,7 +48,7 @@ a {
 .nav-container {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 35px;
 }
 
 
@@ -240,7 +239,6 @@ body {
 @media (max-width: 650px) {
     .header {
         display: flex;
-        max-width: 330px;
     }
 
     .logo-container {
@@ -248,12 +246,13 @@ body {
     }
     
     .header-container {
+        width: 650px;
         padding: 15px;
     }
 
     .nav-container {
         display: flex;
-        max-width: 330px;
+        width: 300px;
     }
 
     .card {
