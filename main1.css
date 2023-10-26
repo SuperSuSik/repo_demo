@@ -19,8 +19,8 @@ a {
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
+    max-width: 1161px;
+
     padding: 30px 0;
     display: flex;
     align-items: center;
@@ -100,7 +100,6 @@ img {
 
 .main {
     display: flex;
-    width: 100%;
     justify-content: center;
 }
 
@@ -131,33 +130,45 @@ img {
 
 .raw {
     display: flex;
-    max-width: 1161px;
-    width: 100%;
     justify-content: center;
+    max-width: 1100px;
+    width: 100%;
     flex-wrap: wrap;
     gap: 15px;
 }
 
+.cost {
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Anonymous Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
 .card {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    width: 1100px;
     border-radius: 12px;
-    background-color: rgb(17, 17, 17);
-    
+    background: linear-gradient(156deg, #2e2e2e 0%,#000000 100%);
 }
 
 .image-container {
+    display: flex;
+    justify-content: flex-start;
     border: 5px;
-    width: 348px;
-    height: 348px;
-    border-radius: 12px 12px 2px 2px;
+    min-width:350px;
+    min-height:600px;
+    border-radius: 12px;
     border: 2px solid black;;
     background: linear-gradient(156deg, #0c1a3b 0%,#2d1131 100%);
 }
 
 .content {
     display: flex;
-    flex-direction: column;
     
 }
 
@@ -173,28 +184,88 @@ img {
 
 .text {
     color: #d8d8d8;
-    width: 340px;
     margin-left: 10px;
     font-family: Anonymous Pro;
-    font-size: 15px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: 28px; /* 186.667% */
 }
+
+.text2 {
+    color: #8d8d8d;
+    margin-left: 10px;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 186.667% */
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-15 {
+    background: #aa00cc;
+    border: none;
+    z-index: 1;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #672ab8;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
 
 .text:last-child {
     margin-top: 19px;
 }
 
 .description {
-    color: #757575;
-    max-width: 300px;
+    color: #cecece;
+    padding-top: 10px;
+    max-width: 700px;
     margin-left: 10px;
     font-family: Anonymous Pro;
-    font-size: 15px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 160% */
+    
 }
 
 .footer-container {
@@ -253,11 +324,105 @@ img {
 }
 
 
+
+
 body {
-    background: linear-gradient(#000000 5%, rgb(39, 19, 51) 50%, #000000 95%);
+    background: linear-gradient(#000000 25%, rgb(39, 19, 51) 50%, #000000 75%);
 }
 
 @media (max-width: 768px) {
+    .header {
+        display: flex;
+        
+    }
+
+    .logo-container {
+        display: none;
+    }
+
+    .logo-container-media {
+        display: flex;
+        width: 100px;
+
+    }
+    
+    .header-container {
+        width: 650px;
+        justify-content: center;
+    }
+
+    .nav-container {
+        display: none;
+        width: 300px;
+    }
+
+    .nav-container-media {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item {
+        font-size: 20px;
+    }
+
+    .card {
+        display: flex;
+    justify-content: flex-start;
+    width: 1100px;
+    border-radius: 12px;
+    background: linear-gradient(156deg, #2e2e2e 0%,#000000 100%);
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        padding-right: 15px;
+        min-width: 150px;
+        min-height: 150px;
+    }
+
+    .raw {
+        display: flex;
+    max-width: 1161px;
+    
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .burger-navigation {
+        display: block;
+    }
+
+    .description {
+        color: #cecece;
+        max-width: 300px;
+        margin-left: 10px;
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 160% */
+        
+    }
+
+    .text {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 425px) {
     .header {
         display: flex;
         
@@ -295,19 +460,31 @@ body {
 
     .card {
         display: flex;
-        justify-content: center;
-        width: 330px;
+    justify-content: flex-start;
+    width: 1100px;
+    border-radius: 12px;
+    background: linear-gradient(156deg, #2e2e2e 0%,#000000 100%);
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
     }
 
     .image-container {
         display: flex;
         justify-content: center;
-        width: 330px;
-        height: 330px;
+        min-width: 150px;
+        max-height: 200px;
     }
 
     .raw {
-        justify-content: center;
+        display: flex;
+    max-width: 1161px;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
     }
 
     .footer {
@@ -325,7 +502,15 @@ body {
     }
 
     .description {
+        color: #cecece;
         max-width: 300px;
+        margin-left: 10px;
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 160% */
+        
     }
 
     .text {
