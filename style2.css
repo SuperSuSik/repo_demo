@@ -257,6 +257,11 @@ body {
     background: linear-gradient(#000000 5%, rgb(39, 19, 51) 50%, #000000 95%);
 }
 
+.card:hover {
+    transition: 1s; 
+    transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
     .header {
         display: flex;
